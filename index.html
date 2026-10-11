@@ -3,54 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartBus Seat Booking</title>
+
+    <title>SmartBus - Seat Booking System</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-    <header>
-        <h1>🚌 SmartBus</h1>
-        <p>Intelligent Seat Availability &amp; Booking System</p>
-    </header>
-
-    <main>
-        <section class="dashboard">
-            <div class="card">
-                <h3>Total Seats</h3>
-                <p>8</p>
-            </div>
-
-            <div class="card">
-                <h3>Occupied</h3>
-                <p id="occupied">0</p>
-            </div>
-
-            <div class="card">
-                <h3>Available</h3>
-                <p id="available">8</p>
-            </div>
-        </section>
-
-        <h2>Bus Seat Layout</h2>
-
-        <div id="seats" class="seats"></div>
-
-        <section class="controls">
-            <label for="seatSelect">Select Seat:</label>
-
-            <select id="seatSelect"></select>
-
-            <button onclick="bookSeat()">Book Seat</button>
-            <button onclick="releaseSeat()">Release Seat</button>
-            <button onclick="resetBus()">Reset</button>
-        </section>
-
-        <h2>Activity Log</h2>
-        <ul id="log"></ul>
-
-        <p id="status"></p>
-    </main>
-
-    <script src="script.js"></script>
-</body>
-</html>
